@@ -11,7 +11,11 @@ const Sidebar = () => {
                     </div>
                     <div className=''>
                         <p className='text-secondary'>Amir Hossein Jamshidi</p>
-                        <p className='text-light text-sm'>Fullstack Developer</p>
+                        <div className='flex gap-x-1 items-center justify-center'>
+                            <span className='dot-small bg-blue-500 flex w-2 h-2 rounded-full'></span>
+                            <p className='text-light text-sm'>Fullstack Developer</p>
+                            <span className='dot-small bg-blue-500 flex w-2 h-2 rounded-full'></span>
+                        </div>
                     </div>
                 </div>
                 <div className='w-full flex flex-col gap-y-1'>
@@ -20,7 +24,7 @@ const Sidebar = () => {
                 <div className='h-16 flex flex-col justify-end text-xs text-light'>
                     <div className='flex items-center gap-x-0.5'>
                         <span>
-                            <CiPenpot size={20} className='text-light' />
+                            <CiPenpot size={20} className='text-blue-500' />
                         </span>
                         <p>Design : Amir (Me)</p>
                     </div>

@@ -4,6 +4,10 @@
 
 @layer utilities {
 
+  .border-dark{
+    @apply border border-gray-700/50
+  }
+
   .sidebar-style {
     @apply bg-white dark:bg-gray-800 border-r border-r-gray-100 dark:border-r-gray-700
   }
@@ -32,4 +36,13 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+
+
+.pattern {
+  background-image: url('/4.png');
+  background-size: 400px;
+  background-repeat: repeat;
+  opacity: 0.3;
+  z-index: 0;
 }
