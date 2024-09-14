@@ -32,10 +32,12 @@
 }
 
 @media (max-width: 1024px) {
+  
   .main-page {
     display: grid;
     grid-template-columns: 1fr;
   }
+
 }
 
 
