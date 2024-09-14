@@ -17,7 +17,9 @@ const Header = () => {
             <div>
                 <p className='font-semibold text-xl text-primary'>DevAmir</p>
             </div>
-            <div className='w-20'></div>
+            <div className='w-20'>
+                Menu Icon
+            </div>
         </div>
     )
 }
