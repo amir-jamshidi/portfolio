@@ -32,14 +32,13 @@
 }
 
 @media (max-width: 1024px) {
-  
+
   .main-page {
     display: grid;
     grid-template-columns: 1fr;
   }
 
 }
-
 
 .pattern {
   background-image: url('/4.png');
